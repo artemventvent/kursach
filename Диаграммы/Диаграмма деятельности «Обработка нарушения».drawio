@@ -1,0 +1,51 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Page-1" id="hs5kQOp3feoDWocyjgb9">
+    <mxGraphModel dx="961" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cQftl6gZg1fwqJovBrcV-1" edge="1" parent="1" source="cQftl6gZg1fwqJovBrcV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cQftl6gZg1fwqJovBrcV-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-2" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="400" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-3" edge="1" parent="1" source="cQftl6gZg1fwqJovBrcV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cQftl6gZg1fwqJovBrcV-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Система фиксирует нарушение высокого уровня&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-5" edge="1" parent="1" source="cQftl6gZg1fwqJovBrcV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cQftl6gZg1fwqJovBrcV-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Отправляет алерт в Jira&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-7" edge="1" parent="1" source="cQftl6gZg1fwqJovBrcV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cQftl6gZg1fwqJovBrcV-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Специалист просматривает нарушение в веб-интерфейсе&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-9" edge="1" parent="1" source="cQftl6gZg1fwqJovBrcV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cQftl6gZg1fwqJovBrcV-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Принимает решение&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-11" edge="1" parent="1" source="cQftl6gZg1fwqJovBrcV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=9;" value="&lt;span&gt;Если устраняет – система отмечает нарушение как исправленное после следующей проверки&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cQftl6gZg1fwqJovBrcV-15" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="400" y="580" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Page-1" id="RLNBgqViNbeIW3AAynWB">
+    <mxGraphModel dx="961" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zy8LwhmCocttMos-bWWv-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span&gt;Автоматизированная система&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;мониторинга безопасности серверов ServerGuardian&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="160" width="280" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="zy8LwhmCocttMos-bWWv-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-5" connectable="0" parent="zy8LwhmCocttMos-bWWv-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Информация о конфигурации&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;серверов&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0207" y="1" as="geometry">
+            <mxPoint y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="399.66" as="sourcePoint" />
+            <mxPoint x="280" y="399.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-6" connectable="0" parent="zy8LwhmCocttMos-bWWv-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span&gt;События безопасности&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0138" as="geometry">
+            <mxPoint y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="440" as="sourcePoint" />
+            <mxPoint x="280" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-7" connectable="0" parent="zy8LwhmCocttMos-bWWv-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Политики безопасности&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;(YAML-файлы)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0345" y="-1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="340" as="sourcePoint" />
+            <mxPoint x="760" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-9" connectable="0" parent="zy8LwhmCocttMos-bWWv-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Отчёты о состоянии&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;безопасности&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0345" y="-1" as="geometry">
+            <mxPoint x="3" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="460" as="sourcePoint" />
+            <mxPoint x="760" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-11" connectable="0" parent="zy8LwhmCocttMos-bWWv-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span&gt;Данные для дашбордов&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0345" y="-1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="420" as="sourcePoint" />
+            <mxPoint x="760" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-13" connectable="0" parent="zy8LwhmCocttMos-bWWv-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Обновлённые политики&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;для агентов&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0345" y="-1" as="geometry">
+            <mxPoint y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="560" y="380" as="sourcePoint" />
+            <mxPoint x="760" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-15" connectable="0" parent="zy8LwhmCocttMos-bWWv-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span&gt;Уведомления и алерты&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0345" y="-1" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="zy8LwhmCocttMos-bWWv-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="160" as="sourcePoint" />
+            <mxPoint x="370" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-25" connectable="0" parent="zy8LwhmCocttMos-bWWv-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Требования&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;информационной&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;безопасности&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;организации&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0321" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.76" y="160" as="sourcePoint" />
+            <mxPoint x="419.76" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-26" connectable="0" parent="zy8LwhmCocttMos-bWWv-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Политики&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;безопасности&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;(CIS Benchmarks,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;внутренние&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;стандарты)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.075" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="160" as="sourcePoint" />
+            <mxPoint x="520" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-27" connectable="0" parent="zy8LwhmCocttMos-bWWv-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Законодательные&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;нормы&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0036" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="zy8LwhmCocttMos-bWWv-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="640" as="sourcePoint" />
+            <mxPoint x="330" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-22" connectable="0" parent="zy8LwhmCocttMos-bWWv-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Системный&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;администратор&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0536" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.71" y="640" as="sourcePoint" />
+            <mxPoint x="419.71" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-23" connectable="0" parent="zy8LwhmCocttMos-bWWv-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Серверное&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;оборудование,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;СУБД&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.025" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.143;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="640" as="sourcePoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zy8LwhmCocttMos-bWWv-24" connectable="0" parent="zy8LwhmCocttMos-bWWv-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;span&gt;Программное&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;обеспечение&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0321" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

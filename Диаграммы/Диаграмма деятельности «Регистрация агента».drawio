@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Page-1" id="VQL_DznKp4oPqbEeBvsC">
+    <mxGraphModel dx="1160" dy="818" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y9IMtax4C1mDS_GItBP_-10" edge="1" parent="1" source="y9IMtax4C1mDS_GItBP_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="y9IMtax4C1mDS_GItBP_-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="360" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-11" edge="1" parent="1" source="y9IMtax4C1mDS_GItBP_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="y9IMtax4C1mDS_GItBP_-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Агент запускается&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-12" edge="1" parent="1" source="y9IMtax4C1mDS_GItBP_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="y9IMtax4C1mDS_GItBP_-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Генерирует запрос на регистрацию&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-13" edge="1" parent="1" source="y9IMtax4C1mDS_GItBP_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="y9IMtax4C1mDS_GItBP_-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Отправляет запрос на сервер&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-14" edge="1" parent="1" source="y9IMtax4C1mDS_GItBP_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="y9IMtax4C1mDS_GItBP_-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Сервер проверяет данные, создаёт сертификат (mTLS)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-15" edge="1" parent="1" source="y9IMtax4C1mDS_GItBP_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" target="y9IMtax4C1mDS_GItBP_-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Сервер сохраняет агента в БД, возвращает сертификат&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-16" edge="1" parent="1" source="y9IMtax4C1mDS_GItBP_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="y9IMtax4C1mDS_GItBP_-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" value="&lt;span&gt;Агент сохраняет сертификат и начинает работу&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="y9IMtax4C1mDS_GItBP_-9" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="360" y="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

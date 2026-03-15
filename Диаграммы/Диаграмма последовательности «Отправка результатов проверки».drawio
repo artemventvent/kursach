@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1">
+  <diagram name="Page-1" id="bEhwlP2qKFr5hqWOqGNg">
+    <mxGraphModel dx="801" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="340" width="20" x="90" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;" value="&lt;code&gt;Агент&lt;/code&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="70" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;code&gt;Сервер&lt;/code&gt;" vertex="1">
+          <mxGeometry height="340" width="100" x="150" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-11" parent="FjFg1ANON4_rqDfPbdiF-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="240" width="10" x="45" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="База данных" vertex="1">
+          <mxGeometry height="340" width="100" x="290" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-13" parent="FjFg1ANON4_rqDfPbdiF-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;code&gt;Jira&lt;/code&gt;" vertex="1">
+          <mxGeometry height="340" width="100" x="430" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-16" parent="FjFg1ANON4_rqDfPbdiF-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-12" edge="1" parent="1" source="FjFg1ANON4_rqDfPbdiF-1" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=6;" target="FjFg1ANON4_rqDfPbdiF-11" value="&lt;div&gt;&lt;code&gt;send_results(agent_id,&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;check_results)&lt;/code&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-14" edge="1" parent="1" source="FjFg1ANON4_rqDfPbdiF-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=9;" target="FjFg1ANON4_rqDfPbdiF-13" value="&lt;code&gt;save_results(...)&lt;/code&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="260" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-15" edge="1" parent="1" source="FjFg1ANON4_rqDfPbdiF-13" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=9;" target="FjFg1ANON4_rqDfPbdiF-11" value="ok">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-17" edge="1" parent="1" source="FjFg1ANON4_rqDfPbdiF-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=9;" target="FjFg1ANON4_rqDfPbdiF-16" value="&lt;code&gt;create_ticket(...)&lt;/code&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="255" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-18" edge="1" parent="1" source="FjFg1ANON4_rqDfPbdiF-16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=9;" target="FjFg1ANON4_rqDfPbdiF-11" value="&lt;code&gt;ticket_id&lt;/code&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjFg1ANON4_rqDfPbdiF-20" edge="1" parent="1" source="FjFg1ANON4_rqDfPbdiF-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=9;" value="&lt;code&gt;acknowledgment&lt;/code&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="159.5" y="380" as="sourcePoint" />
+            <mxPoint x="100" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
